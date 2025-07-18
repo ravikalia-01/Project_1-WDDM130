@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- Favicon (logo in browser tab) -->
+    <link rel="icon" href="/images/logo.png" type="image/png">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/main2.css">
+    <link rel="stylesheet" href="./css/home.css">
+</head>
+<body class="bg-gradient-to-b from-yellow-600 via-red-900 to-black min-h-screen w-full">
+    <%-include('partials/header', {page: 'Home'}) %>
+    <div class="home-container bg-gradient-to-b">
+        <h1><%= title %></h1>
+        <div class="image-gallery">
+            <img src="<%= image1 %>" alt="Home Image 1" class="home-image">
+            <img src="<%= image2 %>" alt="Home Image 2" class="home-image">
+            <img src="<%= image3 %>" alt="Home Image 3" class="home-image">
+            <img src="<%= image4 %>" alt="Home Image 4" class="home-image">
+            <img src="<%= image5 %>" alt="Home Image 5" class="home-image">
+        </div>
+        <p><%= message1 %></p>
+        <p><%= data %></p>
+    </div>
+    <%-include('partials/footer') %>
+</body>
+</html>

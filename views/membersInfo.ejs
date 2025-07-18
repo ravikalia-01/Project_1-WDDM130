@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>View Data</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/images/logo.png" type="image/png">
+    <link rel="stylesheet" href="./css/main2.css">
+    <link rel="stylesheet" href="./css/main.css">
+  </head>
+
+  <body>
+    <%- include('partials/header', {page: 'membersInfo'}) %>
+    <div class="view-data-container">
+      <table border="1">
+          <tr>
+              <th colspan="7">Group Members Information</th>
+          </tr>
+        <tr>
+          <th>Student ID</th>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Hobbies</th>
+          <th>Occupation</th>
+          <th>Institute</th>
+          <th>Location</th>
+        </tr>
+        <tr>
+          <td><%= data.studentid %></td>
+          <td><%= data.name %></td>
+          <td><%= data.age %></td>
+          <td><%= data.hobbies %></td>
+          <td><%= data.occupation %></td>
+          <td><%= data.institute %></td>
+          <td><%= data.location %></td>
+        </tr>
+        <tr>
+          <td><%= data.studentid2 %></td>
+          <td><%= data.name2 %></td>
+          <td><%= data.age2 %></td>
+          <td><%= data.hobbies2 %></td>
+          <td><%= data.occupation2 %></td>
+          <td><%= data.institute %></td>
+          <td><%= data.location %></td>
+        </tr>
+        <tr>
+          <td><%= data.studentid3 %></td>
+          <td><%= data.name3 %></td>
+          <td><%= data.age3 %></td>
+          <td><%= data.hobbies3 %></td>
+          <td><%= data.occupation3 %></td>
+          <td><%= data.institute %></td>
+          <td><%= data.location %></td>
+      </table>
+      <button class="btn btn-dark" onclick="window.location.href='/'">Back to Home</button>
+  </div>
+    <%- include('partials/footer') %>
+    </body>
+</html>
+
+

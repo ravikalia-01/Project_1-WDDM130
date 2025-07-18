@@ -1,0 +1,29 @@
+.contact-container {
+  width: 100vw;
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem 1.5rem;
+  background-color: #1f1f1f; /* Dark background */
+  color: #f0f0f0;            /* Light text */
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(184, 115, 51, 0.4); /* bronze-ish shadow */
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.contact-container h1 {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+  color: #f0f0f0; /* Bronze heading */
+}
+
+.contact-container p {
+  font-size: 1.15rem;
+  margin: 0.6rem 0;
+  line-height: 1.5;
+  color: #ddd;
+}
+
+.contact-container p strong {
+  color: #cd7f32; /* bronze labels if you add <strong> */
+}

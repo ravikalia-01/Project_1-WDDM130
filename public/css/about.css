@@ -1,0 +1,29 @@
+.about-container {
+  width: 100vw;           /* Full viewport width */
+  max-width: 100%;        /* Ensure it doesn't overflow */
+  padding: 2rem 1rem;     /* Some padding for breathing room */
+  box-sizing: border-box; /* Include padding in width */
+  color: #f0f0f0;        /* Light text for contrast */
+  text-align: center;    /* Center text and image */
+  justify-items: center; /* Center items in the container */
+}
+
+.about-container h1 {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+}
+
+.about-image {
+  max-width: 70%;       /* Responsive image */
+  height: auto;
+  margin: 1rem 0;
+  border-radius: 8px;    /* Optional: rounded corners */
+}
+
+.about-container p {
+  font-size: 1.2rem;
+  max-width: 800px;      /* Limit line length for readability */
+  margin: 0 auto;        /* Center paragraph */
+  line-height: 1.6;
+  text-align: justify; /* Justify text for a cleaner look */
+}

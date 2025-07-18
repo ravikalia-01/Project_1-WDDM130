@@ -1,0 +1,127 @@
+
+/* header styles */
+nav {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 25px; /* Space between nav items */
+    background-color: #1a1919; /* White background for the header */
+    color: #ffffff; /* White text color */
+    z-index: 10;
+}
+
+.active {
+    color: #ffcc00; /* Fire Yellow */
+    font-weight: bold;
+}
+
+.logo {
+    width: 30px; /* Adjust the size as needed */
+    height: auto;
+}
+/* Footer styles */
+footer {
+    background-color: #300202; /* White background for the footer */
+    color: #ffffff; /* White text color */
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    z-index: 10;
+    
+}
+
+.Student-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px; /* Space between student info items */
+    margin-top: 20px; /* Space above the student info */
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px; /* Space between links */
+    text-align: left;
+    max-width: 200px; /* Limit the width of the footer links */
+}
+
+.guide-btn {
+    display: inline-flex;
+    justify-content: space-between;
+    color: #000000; /* Black text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.guide-btn button {
+        background-color: gold;
+    text-align: center;
+    font-family: cursive;
+    font-style: oblique;
+}
+
+.guide-btn button:hover {
+        background-color: rgb(242, 183, 34);
+    text-align: center;
+    font-family: cursive;
+    font-style: normal;
+}
+
+/* membersInfo styles */
+
+/* Container for centering */
+.view-data-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Table styles */
+.view-data-container table {
+  width: 100%;
+  max-width: 1000px;
+  border-collapse: collapse;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  table-layout: fixed; /* Equal column widths */
+}
+
+/* Header row with colspan */
+.view-data-container table tr:first-child th {
+  font-size: 1.3rem;
+  background-color: #c59700;
+  color: #fff;
+  text-align: center;
+  padding: 18px;
+}
+
+/* Column headers */
+.view-data-container th {
+  background-color: #ffd700;
+  color: #000;
+  font-weight: 600;
+  padding: 14px;
+  width: calc(100% / 7);
+  border: 1px solid #ccc;
+}
+
+/* Table cells */
+.view-data-container td {
+  padding: 14px;
+  text-align: left;
+  border: 1px solid #ccc;
+  width: calc(100% / 7);
+  word-wrap: break-word;
+}
+
+/* Alternating row color */
+.view-data-container tr:nth-child(even):not(:first-child) {
+  background-color: #f9f9f9;
+}
