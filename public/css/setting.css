@@ -43,11 +43,11 @@
   cursor: pointer;
 }
 
-/* .setting-item select:hover,
+.setting-item select:hover,
 .setting-item select:focus {
   border-color: #c59700;
   outline: none;
-} */
+}
 
 .setting-item input[type="checkbox"] {
   width: 18px;
