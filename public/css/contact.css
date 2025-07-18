@@ -17,12 +17,12 @@
   color: #f0f0f0; /* Bronze heading */
 }
 
-/* .contact-container p {
+.contact-container p {
   font-size: 1.15rem;
   margin: 0.6rem 0;
   line-height: 1.5;
   color: #ddd;
-} */
+}
 
 .contact-container p strong {
   color: #cd7f32; /* bronze labels if you add <strong> */
