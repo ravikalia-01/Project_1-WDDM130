@@ -17,12 +17,12 @@
   font-weight: 700;
 }
 
-.profile-details {
+/* .profile-details {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
-}
+} */
 
 .profile-image {
   width: 140px;
